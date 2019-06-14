@@ -1,7 +1,6 @@
 //Ansu J Rogers//
 // Java Web Development Bootcamp//
 // June 14, 2019//
-//Good luck to me!
 
 /*Week One Challenge: write an application that will show a list of numbers and indicate
 whether or they they are prime numbers. Prime numbers are numbers only divisible by they selves with
@@ -19,11 +18,10 @@ public class Main {
 
         Random rand = new Random(); // generate a random number
 
-        System.out.println("User Enter Any Random Number:");
-
-        number = rand.nextInt(250) + 1; // random number between one and two
 
 
+        System.out.println("Computer Chooses Any Random Number:");
+        number = rand.nextInt(250) + 1; // random number between one and 250
 
         {
             while (i <= number / 2)
